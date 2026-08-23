@@ -1,0 +1,25 @@
+export type Quote = { ticker: string; name: string; price: number; previousClose: number; currency: string; exchange: string; marketTime: string; changePercent: number; sma20: number | null; sma50: number | null; sma200: number | null; high1y: number | null; low1y: number | null };
+
+export async function getQuote(rawTicker: string): Promise<Quote> {
+  const ticker = rawTicker.toUpperCase().replace(/[^A-Z0-9.^=-]/g, "");
+  if (!ticker) throw new Error("Enter a valid ticker.");
+  const endpoint = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=1y&interval=1d`;
+  const response = await fetch(endpoint, { headers: { "User-Agent": "Mozilla/5.0 Serenity-Lens" }, cache: "no-store" });
+  if (!response.ok) throw new Error(`Quote unavailable for ${ticker}.`);
+  const payload = await response.json() as any;
+  const result = payload?.chart?.result?.[0];
+  if (!result) throw new Error(payload?.chart?.error?.description ?? `Ticker ${ticker} was not found.`);
+  const meta = result.meta;
+  const closes = (result.indicators?.quote?.[0]?.close ?? []).filter((value: unknown): value is number => typeof value === "number");
+  const average = (days: number) => closes.length ? closes.slice(-days).reduce((a: number, b: number) => a + b, 0) / Math.min(days, closes.length) : null;
+  const price = Number(meta.regularMarketPrice ?? closes.at(-1));
+  const previousClose = Number(meta.previousClose ?? meta.chartPreviousClose ?? closes.at(-2) ?? price);
+  return {
+    ticker, name: meta.shortName ?? meta.longName ?? ticker, price, previousClose,
+    currency: meta.currency ?? "USD", exchange: meta.exchangeName ?? "",
+    marketTime: meta.regularMarketTime ? new Date(meta.regularMarketTime * 1000).toISOString() : new Date().toISOString(),
+    changePercent: previousClose ? ((price - previousClose) / previousClose) * 100 : 0,
+    sma20: average(20), sma50: average(50), sma200: average(200),
+    high1y: closes.length ? Math.max(...closes) : null, low1y: closes.length ? Math.min(...closes) : null,
+  };
+}
