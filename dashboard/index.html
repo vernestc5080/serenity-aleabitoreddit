@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serenity | Bottleneck research desk</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="extend.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">S</span><span>SERENITY <i>/</i> RESEARCH DESK</span></div>
+      <div class="header-meta"><span class="live-dot"></span> Independent supply-chain notes <span class="divider">/</span> Archive through Sep 18, 2026</div>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">THE AI SUPPLY CHAIN, IN FOCUS</p>
+        <h1 id="page-title">Find the bottleneck.<br><em>Price the patience.</em></h1>
+        <p class="hero-copy">Enter US or Taiwan tickers, or a comma-separated list. Trace the constraint, inspect archived evidence, and compare illustrative price scenarios.</p>
+      </div>
+      <div class="hero-stat"><strong>10</strong><span>stocks under review</span><small>From 6,598 archived public posts</small></div>
+    </section>
+
+    <main class="workspace">
+      <aside class="sidebar" aria-label="Stock universe">
+        <div class="side-heading"><span>01 / UNIVERSE</span><span class="side-count">10 NAMES</span></div>
+        <form id="search-form" class="search-box" autocomplete="off">
+          <label for="ticker-input">ENTER UP TO 8 TICKERS</label>
+          <div class="search-row"><input id="ticker-input" name="ticker" placeholder="NVDA, AXTI, IREN..." aria-label="Search ticker or company"><button type="submit">Analyze <span aria-hidden="true">↗</span></button></div>
+        </form>
+        <div class="list-heading"><span>WATCHLIST + LOOKUPS</span><span>RANK / PRICE</span></div>
+        <div id="stock-list" class="stock-list"></div>
+        <div class="side-foot"><span class="foot-symbol">✳</span><p>Follow the constraint.<br>Question the valuation.</p></div>
+      </aside>
+
+      <section class="detail" aria-live="polite">
+        <div class="detail-topline"><span id="category">OPTICAL / PHOTONICS</span><span id="rank-tag">RANK 09 / 10</span></div>
+        <div class="detail-heading"><div><p class="ticker-kicker">SELECTED COMPANY</p><h2 id="ticker">AAOI</h2><p id="company" class="company">Applied Optoelectronics, Inc.</p></div><div class="price-block"><strong id="current-price">$100.46</strong><span>CURRENT PRICE</span><small id="price-time">SEP 18, 2026 · INTRADAY</small></div></div>
+        <div class="thesis-bar"><span class="pill">THE BOTTLENECK</span><span id="short-thesis">Optical transceiver capacity</span><span class="thesis-index" id="stage">CAPACITY EXECUTION</span></div>
+
+        <div class="metrics" aria-label="Price planning ranges"><div class="metric"><span>BUYING RANGE</span><strong id="buy-range">$65–$80</strong><small>Proposed pullback zone</small></div><div class="metric"><span>SELLING RANGE</span><strong id="sell-range">$136–$181</strong><small>Illustrative 1–3 year exit</small></div><div class="metric"><span>UPSIDE TO EXIT RANGE</span><strong id="upside">+35%–80%</strong><small>From snapshot price</small></div></div>
+
+        <div class="analysis-grid"><article class="analysis-card"><div class="card-label"><span>01 / INVESTMENT CASE</span><span class="line green"></span></div><h3>What has to happen</h3><p id="case-text"></p></article><article class="analysis-card"><div class="card-label"><span>02 / WHAT COULD BREAK</span><span class="line red"></span></div><h3>The patience test</h3><p id="risk-text"></p></article></div>
+
+        <div class="bottom-strip"><div><span>RESEARCH NOTE</span><p id="evidence-text"></p></div><a id="source-link" target="_blank" rel="noopener noreferrer" href="https://finance.yahoo.com/quote/AAOI/">VIEW QUOTE ↗</a></div>
+      </section>
+    </main>
+    <footer class="footer"><span>INDEPENDENT RESEARCH INTERFACE</span><span>Archived research may be stale. Price bands are planning scenarios, not valuation forecasts or financial advice.</span></footer>
+  </div>
+  <script src="app.js"></script>
+  <script src="extend.js"></script>
+</body>
+</html>

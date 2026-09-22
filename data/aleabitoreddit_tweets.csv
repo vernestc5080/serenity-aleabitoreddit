@@ -1,4 +1,97 @@
 id,url,createdAtISO,createdAtLocal,lang,isRetweet,retweetedBy,likes,retweets,replies,quotes,views,bookmarks,media_count,media_urls,link_urls,quoted_id,quoted_author,quoted_text,text
+2100938001077674262,https://x.com/aleabitoreddit/status/2100938001077674262,2026-09-18T13:20:27Z,2026-09-18 21:20,en,False,,498,33,47,6,142657,161,1,https://pbs.twimg.com/media/HSf_zOzaYAAoGXb.jpg,,,,,"So on optical vs. photonics... Memory like $MU / $SKHY is in it's current supercycle.
+
+-> RBC channel checks for example projects 80-100% HBM ASP hikes for 2027.
+
+-> Per $NVDA ER, Hyperscaler capex goes up in 2027. Then you have 68% of hyperscaler capex per Trendforce going to DRAM/NAND.
+
+-> 50-70% for next 3-5 years already allocated toward LTAs.
+
+So supercycle is here... demand visibility is high and the price hikes are still ongoing.
+
+As photonics like $SMTC to $AAOI, I expect to cook heavily in 2027 since we're already seeing widespread optical shortages in 2026.
+
+Plus, you're going from $67.7B in 2026 (per GS) to $131.4B TAM in 2027 for optical modules...
+
+Which impacts the DSPs/TIAs/lasers/fiber suppliers  before CPO scale up really takes off in 2028.
+
+I don't think we'll ever see the same scale of memory price hikes, but I do think there's a lot room for more for  MC growth in optical supply chains (given smaller starting point eg. $1B CW laser supplier vs $1T memory maker).
+
+But still there's room for price hikes on laser content (eg. $15–$20 for 4 70 mW lasers per GS note) since starting point is really cheap... and one component, like cheap InP substrates can break hundreds of billions worth of supply chains downstream.
+
+We're already seeing laser price hikes tho from CIOE channel checks confirmed by both Innolight / $SIVE from the Serenity's follower channel checks.
+
+So entering uncharted territory.
+
+TLDR: Messy thought but, memory has near term earnings power, midst of current supercycle.
+
+The next ""memory"" ASP hikes I'm seeing is clearly legacy memory (DDR2/DDR3/SLC NAND) from cascading bottlenecks. It just looks to be an extension of the memory theme.
+
+Maybe MLCC looks similar in terms of earlier cycles.
+
+If we were to track supercycle impact on the supply chain in the space...
+
+I'm confident next thematic one looks to be photonics entering 2027."
+2100919379622044066,https://x.com/aleabitoreddit/status/2100919379622044066,2026-09-18T12:06:27+00:00,2026-09-18 20:06,en,False,,190,5,17,0,32206,132,2,https://pbs.twimg.com/media/HSf1OZNa0AAQgOw.jpg | https://pbs.twimg.com/media/HSf1OtqbIAARlKz.jpg,,,,,"Quantum supply chain list and TLDR on post-quantum hardware idea:
+
+Quantum Computing Giants
+IBM Quantum ($IBM): ~$227B
+Google Quantum AI / Alphabet ($GOOGL): ~$4.25T
+Amazon Braket / AWS ($AMZN): ~$2.74T
+Intel ($INTC): ~$555B
+Microsoft Azure Quantum ($MSFT): ~$3.71T
+Superconducting
+Rigetti Computing ($RGTI): ~$5.3B
+D-Wave Quantum ($QBTS): ~$6.6B
+IQM Quantum Computers ($IQMX): ~$1.7B
+Honeywell ($HON): ~$65.4B
+NEC ($6701.T): ~$41.7B
+Fujitsu ($6702.T): ~$44.5B
+Ion Trap
+Quantinuum ($QNT): ~$14.4B
+IonQ ($IONQ): ~$14.8B
+
+Neutral Atoms
+Infleqtion ($INFQ): ~$3.05B
+Pasqal ($PSQL): ~$1.68B
+
+Photonics
+Quantum Computing Inc. ($QUBT): ~$1.90B
+Xanadu Quantum Technologies ($XNDU): ~$2.35B
+
+Components
+Hamamatsu Photonics ($6965.T): ~$4.7B
+NTT ($9432.T): ~$94B
+Oxford Instruments ($OXIG.L): ~$2.0B
+Keysight Technologies ($KEYS): ~$57.3B
+
+Software
+CrowdStrike ($CRWD): ~$257B
+Palo Alto Networks ($PANW): ~$300B
+Fortinet ($FTNT): ~$128B
+Netskope ($NTSK): ~$6.9B
+Cisco ($CSCO): ~$439B
+Zscaler ($ZS): ~$31.7B
+Okta ($OKTA): ~$34.0B
+
+Security / Encryption
+eMemory Technology ($3529.TWO): ~$6.4B
+Nokia ($NOK / $NOKIA.HE): ~$58.5B
+Synopsys ($SNPS): ~$73.3B
+Cadence Design Systems ($CDNS): ~$77.5B
+Rambus ($RMBS): ~$9.4B
+
+So just stumbled across some random idea from MS that I'll share regarding post-quantum security hardware providers (not the actual quantum hardware) given:
+
+- Quantum computers may threaten RSA/ECC around ""Q-Day"" of approximately 2030 per MS
+- Security hardware must be deployed beforehand (sometimes few years)
+- There's a few quantum-proof hardware players apparently that trade publicly.
+
+So TAM/revenue should go up...
+
+I see the logic, idk... still feels really far out and might not translate very materially to these companies, but always cool to see new ideas I didn't think of.
+
+Not going to take any positions, just sharing an idea + other research"
 2100735673561174047,https://x.com/aleabitoreddit/status/2100735673561174047,2026-09-17T23:56:29Z,2026-09-18 07:56,en,False,,374,22,34,1,63383,116,0,,,,,,"TLDRs of things I found interesting this week:
 
 - $INTC CEO says some memory prices have risen 5-7× and warns the shortage will worsen in 2027.
@@ -101,9 +194,138 @@ Anyway, proud to see this little company growing up"
 50% of $NVDA employees are reportedly now worth over $25 Million.
 
 They didn’t get to that number paperhanding shares ahead of every macro scare or rate hike. https://t.co/saulhxBF3g"
+2099984263823478830,https://x.com/aleabitoreddit/status/2099984263823478830,2026-09-15T22:10:38+00:00,2026-09-16 06:10,en,False,,602,17,33,0,77850,185,1,https://pbs.twimg.com/media/HSSba8jbEAABhAj.jpg,,,,,"Just as a thought... I think $NBIS is the best example of high-beta ""speculative"" growth companies that emerged a winner.
+
+And there's some lessons learned applying concepts to $AAOI to $SIVE + other inflection type players in 2027.
+
+So story time:
+
+1. I wrote my thesis on Neoclouds in 2025, since I saw them as being $NVDA way to diversify away from hyperscaler AI Clouds.
+
+2. As such, I went long on $WULF, $CIFR, $IREN, $NBIS, $BRUN, and the colo/neocloud ecosystem.
+
+3. But eventually I decided to consolidate Neocloud positions into Nebius, since I found them to be the winner for nuanced reasons with financing/sum-of-parts/moats/deals.
+
+Lot people got mad at me then, especially with $IREN, but all good now cause I own 2 shares.
+
+4. What blew me away was Nebius $17B-$19B deals with $MSFT, their 2025 $3B deal $META (now ~$27B), and diversified customer base.
+
+But... it was a 1 year waiting period for their Q4 2026 inflection period, where Nebius projected $7-9B ARR runrate...
+
+5. The institutional % holding of Nebius was extremely low back then... maybe ~30%'s and was popular among retail.
+
+6. But I had conviction that Nebius would be repriced eventually into Q4 2026 and institutions would increase their holdings off retail favored longs, like they did with $HOOD and others.
+
+7. Despite all of their revenue inflection visibility and hyperscaler deals... $NBIS still tanked to $70, and was targeted by short sellers (eg. Hedgeye + others), especially around December.
+
+8. There was a several month type lull period between November to March... where it ping ponged between $80 to $110, despite the company improving fundamentally.
+
+9. And there was a lot of other media fears from $ORCL leaks about Neocloud profitability, Stargate buildout, GPU depreciation, etc. that caused panic.
+
+10. But despite that... Institutional holding grew to around 67% from 30%'s. Fundamentals kept improving, and share price is now $200+ after reaching $280+ ATHs.
+
+So what's my lesson learned?
+
+- You can be right on the thesis, wrong on the timeframes leading up to inflection point.
+
+- Share prices don't always move in line with fundamentals over short term periods.
+
+Lot of the optical companies I wrote a thesis on like $LITE in 2025 similarly had nearer term inflection periods in 2026 and turned out the winner.
+
+But for current laser examples with 2027... like if $AAOI comes online with $471m monthly capacity revenue and has their inflection point end of Q2 2027.
+
+Or if $SIVE comes online with 100M+ CW DFB laser capacity Q4 2027 (H1 pluggables 2027 w/ foundry allocations + CPO ramp with Ayar/others 2028).
+
+So... I'm getting dejavu again.
+
+There's a lot of volatility along the way, from near-term short selling, macro scares, media scares, that others take advantage of.
+
+Obviously NFA. But in general, when it comes closer to inflection period: Companies eventually get repriced.
+
+Ahead of tomorrow's Fed decision, macro can compress valuation multiples in the short term. But over time,  company fundamentals outperform."
+2099962794015866924,https://x.com/aleabitoreddit/status/2099962794015866924,2026-09-15T20:45:20+00:00,2026-09-16 04:45,en,False,,281,8,16,0,62612,98,2,https://pbs.twimg.com/media/HSR_8PAaYAAG51A.jpg | https://pbs.twimg.com/media/HSSBKlqaIAATdq-.jpg,,,,,"$CRDO announced their new 1.6T optical transceiver today. Just some thoughts / Dustphotonics stuff:
+
+Obviously Credo and high-beta co seems to be getting nuked from rate hikes tomorrow + macro fears.
+
+Combined with very high increase in short interest across a lot of these names from August into September. So very muted market reaction in general.
+
+But I just got curious and did digging into their DustPhotonics acquisition and see if i could map their suppliers (these are not current suppliers, just historical back in ~2022 from their Consortium R&D efforts):
+
+- Almae Technologies
+- Adtran
+-CEA-Leti
+-Bright Photonics
+-TEEM Photonics
+-ficonTEC
+-Mellanox (acquired by $NVDA)
+-Fraunhofer IZM
+- AUTH
+- Tektronix
+
+mostly private, then ficonTEC/Mellanox are used by a ton of companies. But for people who invest in private companies, a lot of these names might be interesting to loo.
+
+But it does seems like $TSEM for PIC/ $TSM for DSPs / $FN as OSAT (from exec comments) is kinda hard to see not being used (not confirmed though) just from Credo's existing relationships.
+
+Thing that stood out to me is that their new 1.6T transceiver product uses 2 external CW lasers so this confirms Credo is buying off merchant CW laser  suppliers.
+
+eg. specs explicitly state (External continuous-wave laser sources).
+
+Obviously this makes me more interested who $CRDO is buying off of since $SIVE mentioned 6 pluggable engagements recently.
+
+($CRDO / $COHR are US wildcards, China pluggables players were most were likely since they're setting up an China office and starting development with them from CIOE 2026 channel checks).
+
+I was curious if they secured capacity already, their BOA conference earlier this year, they mentioned securing laser capacity ahead of time for their older products.
+
+But nothing yet on this 1.6T line, so will need to hear in future events about their allocations to map more links. Goldman Sachs conference few days ago didn't mention anything either.
+
+But regardless, this is positive for merchant CW laser suppliers in a nuanced way (their 1.6T reduces laser content needed, but they produce more, so creates more overall demand).
+
+And given CW lasers have been very bottlenecked + former merchant suppliers like $COHR were redirecting lasers internally now and turned to a buyer off open markets.  So that limits supplier lists.
+
+As for Credo itself, it has its own DSP, silicon photonics PIC, and integration IP, which drives higher margins. And this is very materially positive for the company (but haven't been keeping up to date so no directional opinion here).
+
+But in the end the reason I still like laser companies as it becomes increasingly important + valuable from an IP/acqusition standpoint.
+
+And that laser light sources are being vertically integrated via M&A.
+
+eg. $AVGO / $LITE / $COHR / $AAOI (vertically integrated lasers into their own optical programs)
+
+Innolight/Eoptolink/Credo/Cambridge/Jabil/etc. Buy CW lasers externally for pluggables, and these types would be the type to pull off a M&A.
+
+TLDR:
+- supplier research was kinda a nothingburger, but just posting it anyway since I got curious
+- $CRDO architecture uses few lasers/module which looks bearish, but nuance is that it increases overall CW laser demand regardless
+- Credo is buying external CW lasers for their 1.6T offering, so that's bullish for the remaining small pool of  CW merchant laser suppliers (since markets have another buyer)
+
+If you're wondering about markets:
+- Very macro focused right now, don't have a clue about market reaction to FED decision tomorrow, we'll see."
 2099830591663513642,https://x.com/aleabitoreddit/status/2099830591663513642,2026-09-15T12:00:00Z,2026-09-15 20:00,en,False,,691,27,104,6,253031,100,3,https://pbs.twimg.com/media/HSQYylBaIAANHkl.jpg | https://pbs.twimg.com/media/HSQYyk-awAAm0p4.jpg | https://pbs.twimg.com/media/HSQYylDaYAAHMzu.jpg,,,,,"$CCXI releases their Digit 5 next-generation humanoid.
 
 Thoughts? https://t.co/r0Gb05cnd5"
+2099784954444210243,https://x.com/aleabitoreddit/status/2099784954444210243,2026-09-15T08:58:39+00:00,2026-09-15 16:58,zh,False,,1159,56,190,22,577390,375,0,,,,,,"哇,中国的 AI 视频生成能力可能已经是世界第一了吧？字节跳动的 Seedance 也太强了, 强到让我开始担心…
+
+日本的动画师会不会很快就被 AI 取代？
+
+但想象一下你可以随时生成新的剧情,让故事一直延续下去, 想看多久就看多久
+
+这还挺酷的"
+2099674926697545849,https://x.com/aleabitoreddit/status/2099674926697545849,2026-09-15T01:41:27+00:00,2026-09-15 09:41,en,False,,1202,104,82,20,271889,234,2,https://pbs.twimg.com/media/HSOH1o5acAAfQUb.jpg | https://pbs.twimg.com/media/HSOH-FqaAAA9Oxl.png,,,,,"Some color on current memory environments for the $MU / $SKHY bros:
+
+""There is zero risk of memory prices dropping"" per Team Group GM Gerry Chen.
+
+- Memory module makers have received notices warning of drastic cuts to their 2027 supply allocations. Some could receive 50% or less of their 2026 allocation.
+
+- Upstream manufacturers have reportedly sold out nearly all of their 2027–2028 capacity.
+
+- DDR5 supply, in particular, is projected to come in at less than 80% of previous expectations.
+
+- Chen expects prices to continue rising 20–30% quarter-over-quarter into 2027 (source Digitimes)
+
+- Chen's commentary on $MU is that even before their new MegaFab capacity comes online Q4 2027 at the earliest, orders for 2028 through 2029 are already fully booked.
+
+So that there's virtually no relief in sight to current shortages.
+
+Sharply lower allocations, fully booked capacity into 2029, and future price hikes doesn't quite sound like the AI buildout is slowing down."
 2099659874892386678,https://x.com/aleabitoreddit/status/2099659874892386678,2026-09-15T00:41:38Z,2026-09-15 08:41,en,False,,202,12,20,,45875,34,0,,,,,,"I've seen comments from Jim Cramer today supporting hedge funds that short Leopold's ""nonsense"" $SNDK / $DRAM / SK Hynix type calls.
 
 As well Cramer calling $CRWD a ""Must Buy"".

@@ -9,6 +9,7 @@
  */
 import { execFileSync } from "node:child_process";
 import { realpathSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { pathToFileURL } from "node:url";
 
 function fail(message) {
@@ -65,12 +66,15 @@ function addExpandedText(output, tweet) {
 function loadClient() {
   let xreachBin;
   try {
-    xreachBin = execFileSync("which", ["xreach"], { encoding: "utf8" }).trim();
+    xreachBin = process.env.XREACH_BIN || execFileSync("which", ["xreach"], { encoding: "utf8" }).trim();
   } catch {
     fail("xreach is not installed or is not on PATH");
   }
 
-  const entryUrl = pathToFileURL(realpathSync(xreachBin));
+  const entryPath = xreachBin.toLowerCase().endsWith(".cmd")
+    ? join(dirname(xreachBin), "node_modules", "xreach-cli", "dist", "cli.js")
+    : realpathSync(xreachBin);
+  const entryUrl = pathToFileURL(entryPath);
   return import(new URL("./commands/shared.js", entryUrl));
 }
 

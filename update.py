@@ -58,13 +58,14 @@ def parse_tool_json(stdout):
 
 def xreach_json(args, timeout=180):
     global XREACH_AUTH_FAILED
-    if not shutil.which("xreach"):
+    xreach_bin = shutil.which("xreach")
+    if not xreach_bin:
         return []
     try:
-        p = subprocess.run(["xreach", *args, "--json"], capture_output=True, text=True, timeout=timeout)
+        p = subprocess.run([xreach_bin, *args, "--json"], capture_output=True, text=True, timeout=timeout)
         if p.returncode != 0:
             detail = (p.stderr or p.stdout).strip()
-            if "Could not authenticate you" in detail or "not_authenticated" in detail:
+            if "Could not authenticate you" in detail or "not_authenticated" in detail or "Not authenticated." in detail:
                 XREACH_AUTH_FAILED = True
             print(f"PULL_ERROR {' '.join(args)}: {detail}")
             return []
@@ -74,7 +75,8 @@ def xreach_json(args, timeout=180):
         return []
 
 def xreach_note_text(args, timeout=180):
-    if not shutil.which("node") or not shutil.which("xreach") or not os.path.exists(FULL_TEXT_HELPER):
+    xreach_bin = shutil.which("xreach")
+    if not shutil.which("node") or not xreach_bin or not os.path.exists(FULL_TEXT_HELPER):
         return {}
     try:
         p = subprocess.run(
@@ -82,6 +84,7 @@ def xreach_note_text(args, timeout=180):
             capture_output=True,
             text=True,
             timeout=timeout,
+            env={**os.environ, "XREACH_BIN": xreach_bin},
         )
         if p.returncode != 0:
             print(f"FULL_TEXT_ERROR {' '.join(args)}: {(p.stderr or p.stdout).strip()}")
